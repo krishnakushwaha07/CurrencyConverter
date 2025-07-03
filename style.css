@@ -1,0 +1,109 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #e3e3e3;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.container {
+  min-height: 40vh;
+  background: #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  padding: 2.5rem 1rem;
+  border-radius: 10px;
+  box-shadow: rgb(177, 177, 177) 0 0 10px;
+}
+form {
+  width: 330px;
+  padding: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.amountbox {
+  display: flex;
+  flex-direction: column;
+}
+#amount {
+  max-width: 320px;
+  font-size: 1.2rem;
+  padding: 1rem;
+  border-radius: 10px;
+  border: 1px solid rgb(211, 211, 211);
+  overflow: auto;
+}
+label {
+  font-size: 1.2rem;
+}
+.dropdown {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 1rem;
+  padding: 0.5;
+  gap: 1.5rem;
+}
+.frombox,
+.tobox {
+  display: flex;
+  flex-direction: column;
+}
+
+.fromselect,
+.toselect {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+  border: 1px solid rgb(211, 211, 211);
+  padding: 0.4rem;
+  border-radius: 10px;
+}
+
+.fromselect img {
+  height: 30px;
+  width: 30px;
+}
+.fromselect select {
+  font-size: 1.2rem;
+  border: 1px solid rgb(211, 211, 211);
+  border-radius: 5px;
+}
+.dropdown i {
+  margin-top: 1.5rem;
+}
+.toselect select {
+  font-size: 1.2rem;
+  border: 1px solid rgb(211, 211, 211);
+  border-radius: 5px;
+}
+
+.toselect img {
+  height: 30px;
+  width: 30px;
+}
+
+.output {
+  max-width: 320px;
+  max-height: 60px;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+.output .msg {
+  font-size: 1.2rem;
+  padding: 1rem;
+  border-radius: 10px;
+  border: 1px solid rgb(211, 211, 211);
+  overflow-x: auto;
+}
